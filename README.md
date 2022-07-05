@@ -1,3 +1,3 @@
 # oblique-showcases
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-ccpojf)
+[Edit on StackBlitz ⚡️](https://oblique-showcases.stackblitz.io)

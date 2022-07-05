@@ -1,0 +1,35 @@
+.oblique-demo .button-panel {
+  margin-bottom: 10px;
+}
+.oblique-demo .printarea {
+  background-color: yellow;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .button-panel {
+    display: none;
+  }
+  .ob-master-layout-footer {
+    display: none;
+  }
+  .ob-master-layout-header {
+    display: none;
+  }
+  .ob-viewport {
+    overflow: visible !important;
+    display: block !important;
+  }
+  .printarea,
+  .printarea * {
+    visibility: visible;
+  }
+  .printarea {
+    display: block;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+}

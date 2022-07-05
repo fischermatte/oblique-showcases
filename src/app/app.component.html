@@ -1,0 +1,16 @@
+<ob-master-layout
+  [navigation]="[
+    { url: 'home', label: 'home' },
+    { url: 'print-demo', label: 'print-demo' }
+  ]"
+>
+  <ng-container obHeaderTitle>oblique-demo</ng-container>
+  <ng-container obFooterInfo>
+    <p>Oblique's footer</p>
+    <p>
+      &copy; 2020 <span>{{ "i18n.oblique.footer.title" | translate }}</span>
+    </p>
+  </ng-container>
+</ob-master-layout>
+<!-- huhu
+<router-outlet></router-outlet> -->
